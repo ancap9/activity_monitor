@@ -1,0 +1,26 @@
+---
+title: "PA1_template"
+author: "Antonio"
+date: "2023-03-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+
+```{r avtivity}
+
+activity<- read.csv("activity.csv")
+summary(activity)
+
+```
+
+```{r avtivity}
+activity$date<- as.Date(activity$date)
+```
+
