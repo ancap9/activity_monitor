@@ -24,3 +24,19 @@ summary(activity)
 activity$date<- as.Date(activity$date)
 ```
 
+
+
+```{r avtivity}
+
+is.na(activity$steps)
+
+
+```
+
+
+
+
+
+
+
+
